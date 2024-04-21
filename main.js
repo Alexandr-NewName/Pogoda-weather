@@ -39,6 +39,11 @@ window.addEventListener('load', () => {
                 tempF.textContent = `${fahrenheit.toFixed(2)} °F`;
                 sunriseDOM.textContent = `${sunriseGMT.toLocaleDateString()}, ${sunriseGMT.toLocaleTimeString()}`;
                 sunsetDOM.textContent = `${sunsetGMT.toLocaleDateString()}, ${sunsetGMT.toLocaleTimeString()}`;
+
+                const preloader = document.querySelector('.preloader');
+                preloader.style.display = 'none';
+                const weatherWidget = document.querySelector('#weatherWidget');
+                weatherWidget.style.display = 'block'
                 
             })
         })
