@@ -19,6 +19,22 @@ body{
     flex-direction: column;
 
 }
+
+.weatherWidget{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.icon-wether-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .weather{
     display: flex;
     align-items: center;
